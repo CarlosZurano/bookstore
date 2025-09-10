@@ -32,17 +32,11 @@ build/
 ### VS Code ###
 .vscode/
 
-# Backend (Spring Boot)
-bookstore-api/.env
-bookstore-api/target/
-bookstore-api/*.log
-
-# Frontend (React)
-bookstore-frontend/node_modules/
-bookstore-frontend/.env
-bookstore-frontend/build/
-bookstore-frontend/*.log
-
 # IDEs
 .vscode/
 .idea/
+
+# backend
+bookstore-api/.env
+# frontend
+bookstore-frontend/.env
