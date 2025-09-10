@@ -1,0 +1,48 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Backend (Spring Boot)
+bookstore-api/.env
+bookstore-api/target/
+bookstore-api/*.log
+
+# Frontend (React)
+bookstore-frontend/node_modules/
+bookstore-frontend/.env
+bookstore-frontend/build/
+bookstore-frontend/*.log
+
+# IDEs
+.vscode/
+.idea/
